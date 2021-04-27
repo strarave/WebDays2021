@@ -36,3 +36,9 @@ $selectionBackgroundColor: #e7ad52;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+//Questo override è opera di Filippo, più che altro è sperimentale.
+.reveal .upper_left_box {
+    float: left;
+}
