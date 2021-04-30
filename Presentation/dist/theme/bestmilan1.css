@@ -32,9 +32,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --heading3-size: 1.55em;
   --heading4-size: 1em;
   --code-font: monospace;
-  --link-color: #e7ad52;
-  --link-color-hover: #f3d7ac;
-  --selection-background-color: #e7ad52;
+  --link-color: #20a4e2;
+  --link-color-hover: #7ac9ee;
+  --selection-background-color: #20a4e2;
   --selection-color: #fff; }
 
 .reveal-viewport {
@@ -49,12 +49,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal ::selection {
   color: #fff;
-  background: #e7ad52;
+  background: #20a4e2;
   text-shadow: none; }
 
 .reveal ::-moz-selection {
   color: #fff;
-  background: #e7ad52;
+  background: #20a4e2;
   text-shadow: none; }
 
 .reveal .slides section,
@@ -248,18 +248,18 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * LINKS
  *********************************************/
 .reveal a {
-  color: #e7ad52;
+  color: #20a4e2;
   text-decoration: none;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #f3d7ac;
+  color: #7ac9ee;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #d08a1d; }
+  background: #1574a1; }
 
 /*********************************************
  * Frame helper
@@ -272,21 +272,21 @@ section.has-light-background, section.has-light-background h1, section.has-light
   transition: all .15s linear; }
 
 .reveal a:hover .r-frame {
-  border-color: #e7ad52;
+  border-color: #20a4e2;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #e7ad52; }
+  color: #20a4e2; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #e7ad52; }
+  color: #20a4e2; }
 
 /*********************************************
  * PRINT BACKGROUND
