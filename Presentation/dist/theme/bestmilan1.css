@@ -301,6 +301,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * CUSTOM CLASSES AND TAGS
  *********************************************/
- .black-text{
+ .reveal .black-text{
    text-decoration-color:black;
  }
