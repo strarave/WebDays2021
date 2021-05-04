@@ -295,5 +295,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
   .backgrounds {
     background-color: #111; } }
 
+/*********************************************
+ * CUSTOM CLASSES AND TAGS
+ *********************************************/
 .reveal .upper_left_box {
   float: left; }
+
+.reveal .black-text {
+  text-decoration-color: black; }

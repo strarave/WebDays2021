@@ -38,7 +38,16 @@ $selectionBackgroundColor: #20a4e2;
 // ---------------------------------------------
 
 
-//Questo override è opera di Filippo, più che altro è sperimentale.
+
+/*********************************************
+ * CUSTOM CLASSES AND TAGS
+ *********************************************/
 .reveal .upper_left_box {
     float: left;
 }
+
+
+.reveal .black-text{
+    text-decoration-color:black;
+ }
+ 
