@@ -297,10 +297,3 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal .upper_left_box {
   float: left; }
-
-/*********************************************
- * CUSTOM CLASSES AND TAGS
- *********************************************/
- .black-text{
-   text-decoration-color:black;
- }
