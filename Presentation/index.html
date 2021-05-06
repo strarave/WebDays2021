@@ -455,6 +455,146 @@
 						</span>
 					</section>
 				</section>
+				<!--Applicazioni CMS-->
+				<section>
+					<section>
+						<h3>Quanti CMS esistono?</h3>
+						<p>Tantissimi, almeno uno per ambito:</p>
+						<ul>
+							<li class="fragment highlight-current-blue">Aziendale B2B e B2C (CRM e simili)</li>
+							<li class="fragment highlight-current-blue">Turismo</li>
+							<li class="fragment highlight-current-blue">Commercio elettronico</li>
+							<li class="fragment highlight-current-blue">Software</li>
+							<li class="fragment highlight-current-blue">Mobile</li>
+							<li class="fragment highlight-current-blue">E molto altro...</li>
+						</ul>
+					</section>
+					<section>
+						<p>Ogni CMS ha un nome diverso a seconda di cosa gestisce:</p>
+						<ul>
+							<li class="fragment fade-in-then-semi-out">Dynamic CMS, gestione dinamica della documentazione</li>
+							<li class="fragment fade-in-then-semi-out">Learning CMS, gestione contenuti web per la didattica</li>
+						</ul>
+						<h4 class="fragment fade-up">Soffermiamoci sui contenuti web e aziendali</h3>
+					</section>
+					<!--CMS per aziende-->
+					<section>
+						<h3>ECM</h3>
+						<q class="fragment fade-up">Enterprise Content Management</q>
+						<p class="fragment fade-up">Gestione contenuti aziendali</p>
+						<p class="fragment fade-up">Si sfrutta l'accesso a ruoli</p>						
+						<p class="fragment fade-up">Garantisce sicurezza per i dati aziendali</p>						
+					</section>
+					<!--CMS per web-->
+					<section>
+						<h3>WCM</h3>
+						<q class="fragment fade-up">Web Content Management</q>
+						<p class="fragment fade-up">Gestione contenuti web</p>
+						<p class="fragment fade-up">Usato per:</p>
+						<ul>
+							<li class="fragment fade-in-then-semi-out">Creare</li>
+							<li class="fragment fade-in-then-semi-out">Modificare</li>
+							<li class="fragment fade-in-then-semi-out">Pubblicare</li>
+						</ul>			
+						<p class="fragment fade-up">Il WCM più utilizzato?</p> 			
+						<h4 class="fragment fade-up">Wordpress</h4>						
+					</section>
+				</section>
+
+				<!--XAMPP intro-->
+				<section>
+					<h1>XAMPP</h1>
+					<p class="fragment fade-up">Come creare contenuti con un CMS?</p> 			
+				</section>
+				<section>
+					<section>
+						<p>Esistono due diverse opzioni:</p>
+						<ul>
+							<li class="fragment highlight-blue">Online</li>
+							<li class="fragment highlight-green">Locale</li>
+						</ul>
+					</section>
+					<section>
+						<h3 class="fragment highlight-blue">Online</h3>
+						<p class="fragment fade-up">Accessibile da qualsiasi dispositivo</p> 			
+						<p class="fragment fade-up">Connessione internet non sempre disponibile</p> 			
+					</section>
+					<section>
+						<h3 class="fragment highlight-green">Locale</h3>
+						<p class="fragment fade-up">Veloce</p> 	
+						<p class="fragment fade-up">Offline</p> 
+						<p class="fragment fade-up">Non visibile da altri</p> 			
+						<p class="fragment fade-up">Richiede l'installazione di un application server</p>
+						<p class="fragment fade-up" style="text-align: right;">...Ma è davvero uno svantaggio?</p>		
+					</section>
+				</section>
+				<!--Componenti XAMPP-->
+				<section>
+					<h4>Che cosa è XAMPP:</h4>
+					<section>
+						<p class="fragment fade-up">Raggruppa in una sola piattaforma gli strumenti necessari per lo sviluppo web</p>
+					</section>
+					<section>
+						<h3>X: Cross-Platform</h3>
+						<p class="fragment fade-up">Applicazione software funzionante su più di un sistema</p>
+						<p class="fragment fade-up">Microsoft Windows</p>
+						<p class="fragment fade-up">Sistemi Unix-like</p>
+					</section>
+					<section>
+						<h3>A: Apache HTTP Server</h3>
+						<p class="fragment fade-up">Semplice, open source e testato</p>
+						<p class="fragment fade-up">Web Application Server che elabora e risponde alle richieste del client</p>
+						<p class="fragment fade-up">Funzionalità principali gestite dal file httpd.conf</p>
+						<p class="fragment fade-up">Gestione del singolo sito con .htaccess</p>
+					</section>
+					<section>
+						<h3>M: MySQL</h3>
+						<p class="fragment fade-up">Supportato da molti CMS e open source</p>
+						<p class="fragment fade-up">DBMS (DataBase Management System)</p>
+						<p class="fragment fade-up">Sistema software per la gestione efficiente del database</p>
+						<p class="fragment fade-up">Client a riga di comando + Server</p>
+					</section>
+					<section>
+						<h3>P: PHP</h3>
+						<p class="fragment fade-up">Open source</p>
+						<p class="fragment fade-up">Linguaggio di scripting lato server</p>
+						<p class="fragment fade-up">Integrato tramite API con Apache e MySQL</p>
+						<p class="fragment fade-up">Esistono molte librerie disponibili online</p>
+					</section>
+					<section>
+						</br>
+						<h3>P: Perl</h3>
+						<p class="fragment fade-up">Open source</p>
+						<p class="fragment fade-up">Linguaggio di programmazione ad alto livello</p>
+						<p class="fragment fade-up">Combina linguaggi come C e scripting shell Unix</p>
+						<p class="fragment fade-up">Compatibile con diversi compilatori</p>
+						<pre class="fragment fade-up">
+							<code data-trim data-line-numbers="1-5">
+								#!/usr/bin/perl
+								while(<>){
+									my ($campo1, $campo2) = split /,/;
+									print "$campo1,$campo2\n";
+								}
+							</code>
+						</pre>
+					</section>
+					<section>
+						<h3>Server FTP: FileZilla</h3>
+						<p class="fragment fade-up">Gratuito</p>
+						<p class="fragment fade-up">Supporta i protocolli FTP e FTPS (SSL/TLS)</p>
+					</section>
+					<section>
+						<h3>Mail Server: Mercury mail transport system</h3>
+						<p class="fragment fade-up">Gratuito</p>
+						<p class="fragment fade-up">Gestione della posta elettronica tra più dispositivi</p>
+					</section>
+				</section>
+				<!--Installare XAMPP-->
+				<section>
+					<h2>Passiamo alla pratica</h2>
+					<p class="fragment fade-up">Installiamo XAMPP</p>
+					<a class="fragment fade-up" href="https://www.apachefriends.org/it/download.html">www.apachefriends.org/it/download.html</a>
+				</section>
 				<!-- Day 2 -->
 				<section>
 					<h1>Giorno 2</h1>
