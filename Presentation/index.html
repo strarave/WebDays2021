@@ -171,6 +171,7 @@
 					<!--HTML-->
 					<section>
 						<h2>HTML</h2>
+						<h4>Organizza il contenuto</h4>
 						<pre>
 							<code data-trim>
 								<h1> Titolone! </h1>
@@ -193,9 +194,34 @@
 					<!--CSS-->
 					<section>
 						<h2>CSS</h2>
+						<h4>Colora il contenuto</h4>
 						<pre>
-							<code data-trim>
-								
+							<code data-trim data-line-numbers="2-4 | 6-9 | 11-14 | 16-19 | 21-27">
+								<style>
+								  div {
+								    background-color: black;
+								  }
+								  
+								  p {
+								  	text-decoration-color: aquamarine;
+								  	font-family: 'Courier New', Courier, monospace;
+								  }  
+								  h1 {
+								  	color: maroon;
+								  	margin-left: 40px;
+								  }  
+								  .laMiaClasseCSS {
+								  	text-decoration-color: white;
+								  	text-align: right;
+								  }
+								</style>
+								<div>
+									<h1>Titolone Colorato!</h1>
+									<p>Paragrafo col testo azzurro!</p>
+									<div class="laMiaClasseCSS">
+										Testo bianco con lo sfondo nero!
+									</div>
+								</div>
 							</code>
 						</pre>
 					</section>
@@ -203,9 +229,19 @@
 					<!--JS-->
 					<section>
 						<h2>JavaScript</h2>
+						<h4>Rendi il contenuto dinamico</h4>
 						<pre>
-							<code data-trim>
-								
+							<code data-trim data-line-numbers="1-10 | 2-5">
+								<script>
+								  function onButtonClick(){
+								    alert("Woah! Click sul bottone!");
+								    Document.getElementById("esempio").innerHTML = Date();
+								  }
+								</script>
+								<button onclick="onButtonClick()">
+									Cliccami
+								</button>
+								<div id="esempio"></div>
 							</code>
 						</pre>
 					</section>
@@ -213,6 +249,7 @@
 					<!--PHP-->
 					<section>
 						<h2>PHP</h2>
+						<h4>Costruisci l'applicazione</h4>
 						<pre>
 							<code data-trim>
 								
@@ -223,8 +260,10 @@
 					<!--SQL-->
 					<section>
 						<h2>SQL</h2>
+						<h4>Gestisci il DataBase</h4>
 						<pre>
 							<code data-trim>
+
 								
 							</code>
 						</pre>
