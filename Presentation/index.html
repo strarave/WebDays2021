@@ -1,29 +1,31 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/bestmilan1.css" id="theme">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/bestmilan1.css" id="theme">
 
-				<!--Title-->
-				<section>
-					<h1>Giorno 1</h1>
-					<p class="fragment"> Introduzione al WEB, ai suoi componenti e alle tecnologie.</p>
-				</section>
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
 
-				<!--
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<!--Title-->
+			<section>
+				<h1>Giorno 1</h1>
+				<p class="fragment"> Introduzione al WEB, ai suoi componenti e alle tecnologie.</p>
+			</section>
+
+			<!--
 				<section>
 					<div class="upper_left_box"></div>
 					<h3>Come funzione il Web?</h3>
@@ -62,116 +64,127 @@
 					<p>Text hold</p>
 				</section>
 			-->
-				<!--Web-->
+			<!--Web-->
+			<section>
+				Web
 				<section>
-					Web
-					<section>
-						Che cos'è il web:
-						<blockquote>
-							<p class="fragment fade-up">The World Wide Web (WWW), commonly known as the Web, is an information system </p>
-							<p class="fragment fade-up"> where documents and other web resources are identified by Uniform Resource Locators </p>
-							<p class="fragment fade-up"> and are accessible over the Internet.</p>
-						</blockquote>
-					</section>
-					<section>
-						Information system:
-						<blockquote><p class="fragment fade-up"> Un sistema informativo è un sistema formale, sociotecnico, organizzativo costruito per raccogliere, processare, salvare e distribuire informazioni.</p></blockquote>
-					</section>
-					<section>
-						URLs:
-						Un URL è un <q>identificatore univoco</q> formattato in modo <q>standard</q> che colloca una risorsa sul WEB.
-						<p class="fragment highlight-current-red">https:// </p>
-						<p class="fragment highlight-current-red">www.</p> 
-						<p class="fragment highlight-current-red">reddit.com</p>
-						<p class="fragment highlight-current-red">/r/formula1/</p>
-					</section>
-					<section>
-						Accessibili tramite internet:
-						<p class="fragment fade-up"> IL WEB NON È INTERNET. Il web può essere visto come l'insieme di informazioni disponibili e di servizi raggiungibili tramite Internet.</p>
-					</section>
-					<section data-background-image="./resources/images/network.gif">
-						Ma allora, Internet cos'è?
-						<p class="fragment fade-up"> Non è il WEB.</p>
-						<p class="fragment fade-up"> È l'infrastruttura comunicativa e computazionale sotto il Web.</p>
-					</section>
+					Che cos'è il web:
+					<blockquote>
+						<p class="fragment fade-up">The World Wide Web (WWW), commonly known as the Web, is an
+							information system </p>
+						<p class="fragment fade-up"> where documents and other web resources are identified by Uniform
+							Resource Locators </p>
+						<p class="fragment fade-up"> and are accessible over the Internet.</p>
+					</blockquote>
+				</section>
+				<section>
+					Information system:
+					<blockquote>
+						<p class="fragment fade-up"> Un sistema informativo è un sistema formale, sociotecnico,
+							organizzativo costruito per raccogliere, processare, salvare e distribuire informazioni.</p>
+					</blockquote>
+				</section>
+				<section>
+					URLs:
+					Un URL è un <q>identificatore univoco</q> formattato in modo <q>standard</q> che colloca una risorsa
+					sul WEB.
+					<p class="fragment highlight-current-red">https:// </p>
+					<p class="fragment highlight-current-red">www.</p>
+					<p class="fragment highlight-current-red">reddit.com</p>
+					<p class="fragment highlight-current-red">/r/formula1/</p>
+				</section>
+				<section>
+					Accessibili tramite internet:
+					<p class="fragment fade-up"> IL WEB NON È INTERNET. Il web può essere visto come l'insieme di
+						informazioni disponibili e di servizi raggiungibili tramite Internet.</p>
+				</section>
+				<section data-background-image="./resources/images/network.gif">
+					Ma allora, Internet cos'è?
+					<p class="fragment fade-up"> Non è il WEB.</p>
+					<p class="fragment fade-up"> È l'infrastruttura comunicativa e computazionale sotto il Web.</p>
+				</section>
+			</section>
+
+			<!--Web App-->
+			<section>
+				Web App
+				<section>
+					Che cos'è una Web App:
+					<p class="fragment fade-up">
+						<q> Una Web App è un software che eroga un servizio tramite il web. </q>
+					</p>
+				</section>
+				<section>
+					Ok, quindi?
+					<p class="fragment fade-up">È un'applicazione</p>
+					<p class="fragment fade-up">in esecuzione su un web server</p>
+					<p class="fragment fade-up">accessibile tramite un web browser</p>
+					<p class="fragment fade-up">dai client, che interrogano il server per ottenere informazioni e
+						computazioni.</p>
+				</section>
+				<section>
+					Interrogano?
+					<p class="fragment fade-up">Il metodo più semplice per condividere informazioni</p>
+					<p class="fragment fade-up">Io chiedo</p>
+					<p class="fragment fade-up">Tu rispondi</p>
+					<p class="fragment fade-up">Questo modello di comunicazione si trova a tutti i livelli di un'app
+						web.</p>
+				</section>
+			</section>
+
+			<!--Web App Architecture-->
+			<section>
+				<section>
+					<h3> Parliamo tecnico ora: com'è strutturata una Web App? </h3>
+				</section>
+				<section>
+					<img data-src="./resources/images/architecture.png">
+				</section>
+				<section>
+					Clienti e Fornitori
+					<p class="fragment"><img data-src="./resources/images/clientServer.png"></p>
+				</section>
+				<section>
+					Quindi, chi fa cosa?
+					<p class="fragment"> e il codice dove sta? </p>
+				</section>
+				<section>
+					<img data-src="./resources/images/FEBE.jpeg">
+				</section>
+			</section>
+
+			<!--Front End-->
+			<section>
+				<section>
+					<h1> Il Front End </h1>
+				</section>
+				<section>
+					<h3>Il Front End di un'applicazione web si occupa di</h3>
+					<ul>
+						<li class="fragment fade-in-then-semi-out">Intercettare, filtrare e interpretare gli input
+							dell'utente</li>
+						<li class="fragment fade-in-then-semi-out">Presentare i dati</li>
+						<li class="fragment fade-in-then-semi-out">Gestire il flusso di dati tra il client e il server
+						</li>
+						<li class="fragment fade-in">Fare da guardia al server</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Che tecnologie si usano nel front end?</h3>
+					<ul>
+						<li>HTML</li>
+						<li>XML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>TypeScript</li>
+						<ul>
 				</section>
 
-				<!--Web App-->
+				<!--HTML-->
 				<section>
-					Web App
-					<section>
-						Che cos'è una Web App:
-						<p class="fragment fade-up">
-							<q> Una Web App è un software che eroga un servizio tramite il web. </q>
-						</p>
-					</section>
-					<section>
-						Ok, quindi?
-						<p class="fragment fade-up">È un'applicazione</p>
-						<p class="fragment fade-up">in esecuzione su un web server</p>
-						<p class="fragment fade-up">accessibile tramite un web browser</p>
-						<p class="fragment fade-up">dai client, che interrogano il server per ottenere informazioni e computazioni.</p>
-					</section>
-					<section>
-						Interrogano?
-						<p class="fragment fade-up">Il metodo più semplice per condividere informazioni</p>
-						<p class="fragment fade-up">Io chiedo</p>
-						<p class="fragment fade-up">Tu rispondi</p>
-						<p class="fragment fade-up">Questo modello di comunicazione si trova a tutti i livelli di un'app web.</p>
-					</section>
-				</section>
-
-				<!--Web App Architecture-->
-				<section>
-					<section>
-						<h3> Parliamo tecnico ora: com'è strutturata una Web App? </h3>
-					</section>
-					<section>
-						<img data-src="./resources/images/architecture.png">
-					</section>
-					<section>
-						Clienti e Fornitori
-						<p class="fragment"><img data-src="./resources/images/clientServer.png" ></p>
-					</section>
-					<section>
-						Quindi, chi fa cosa?
-						<p class="fragment"> e il codice dove sta? </p>
-					</section>
-					<section>
-						<img data-src="./resources/images/FEBE.jpeg">
-					</section>
-				</section>
-
-				<!--Front End-->
-				<section>
-					<section>
-						<h1> Il Front End </h1>
-					</section>
-					<section>
-						<h3>Il Front End di un'applicazione web si occupa di</h3>
-						<ul>
-							<li class="fragment fade-in-then-semi-out">Intercettare, filtrare e interpretare gli input dell'utente</li>
-							<li class="fragment fade-in-then-semi-out">Presentare i dati</li>
-							<li class="fragment fade-in-then-semi-out">Gestire il flusso di dati tra il client e il server</li>
-							<li class="fragment fade-in">Fare da guardia al server</li>
-						</ul>
-					</section>
-					<section>
-						<h3>Che tecnologie si usano nel front end?</h3>
-						<ul>
-							<li>HTML</li>
-							<li>XML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-							<li>TypeScript</li>
-						<ul>
-					</section>
-
-					<!--HTML-->
-					<section>
-						<h2>HTML</h2>
-						<h4>Organizza il contenuto</h4>
-						<pre>
+					<h2>HTML</h2>
+					<h4>Organizza il contenuto</h4>
+					<pre>
 							<code data-trim>
 								<h1> Titolone! </h1>
 								<h2> Titolino! </h2>
@@ -188,13 +201,13 @@
 								</ul>
 							</code>
 						</pre>
-					</section>
+				</section>
 
-					<!--CSS-->
-					<section>
-						<h2>CSS</h2>
-						<h4>Colora il contenuto</h4>
-						<pre>
+				<!--CSS-->
+				<section>
+					<h2>CSS</h2>
+					<h4>Colora il contenuto</h4>
+					<pre>
 							<code data-trim data-line-numbers="2-4 | 6-9 | 11-14 | 16-19 | 21-27">
 								<style>
 								  div {
@@ -225,19 +238,19 @@
 								</div>
 							</code>
 						</pre>
-					</section>
+				</section>
 
-					<!--JS-->
-					<section>
-						<h2>JavaScript</h2>
-						<h4>Rendi il contenuto dinamico</h4>
-						<pre>
+				<!--JS-->
+				<section>
+					<h2>JavaScript</h2>
+					<h4>Rendi il contenuto dinamico</h4>
+					<pre>
 							<code data-trim data-line-numbers="1-10 | 2-5">
 								<script>
-								  function onButtonClick(){
-								    alert("Woah! Click sul bottone!");
-								    Document.getElementById("esempio").innerHTML = Date();
-								  }
+									function onButtonClick() {
+										alert("Woah! Click sul bottone!");
+										Document.getElementById("esempio").innerHTML = Date();
+									}
 								</script>
 								<button onclick="onButtonClick()">
 									Cliccami
@@ -245,28 +258,30 @@
 								<div id="esempio"></div>
 							</code>
 						</pre>
-					</section>					
 				</section>
-				<!--Back End-->
+			</section>
+			<!--Back End-->
+			<section>
 				<section>
-					<section>
-						<h1>Il Back End</h1>
-					</section>
-					<section>
-						<h3>Il Back End di un'applicazione si occupa di</h3>
-						<ul>
-							<li class="fragment fade-in-then-semi-out">Eseguire i comandi impartiti dall'utente dall'utente tramite il front end</li>
-							<li class="fragment fade-in-then-semi-out">Sanificare i dati e inserirli nel sistema</li>
-							<li class="fragment fade-in-then-semi-out">Eseguire computazioni sulla base di dati condivisa</li>
-							<li class="fragment fade-in">Formattare e inviare i dati al front end</li>
-						</ul>
-					</section>
+					<h1>Il Back End</h1>
+				</section>
+				<section>
+					<h3>Il Back End di un'applicazione si occupa di</h3>
+					<ul>
+						<li class="fragment fade-in-then-semi-out">Eseguire i comandi impartiti dall'utente dall'utente
+							tramite il front end</li>
+						<li class="fragment fade-in-then-semi-out">Sanificare i dati e inserirli nel sistema</li>
+						<li class="fragment fade-in-then-semi-out">Eseguire computazioni sulla base di dati condivisa
+						</li>
+						<li class="fragment fade-in">Formattare e inviare i dati al front end</li>
+					</ul>
+				</section>
 
-					<!--PHP-->
-					<section>
-						<h2>PHP</h2>
-						<h4>Costruisci l'applicazione, server side</h4>
-						<pre>
+				<!--PHP-->
+				<section>
+					<h2>PHP</h2>
+					<h4>Costruisci l'applicazione, server side</h4>
+					<pre>
 							<code data-trim>
 								<script type="text/template">
 									<?php
@@ -282,13 +297,13 @@
 								</script>
 							</code>
 						</pre>
-					</section>
+				</section>
 
-					<!--SQL-->
-					<section>
-						<h2>SQL</h2>
-						<h4>Gestisci il DataBase</h4>
-						<pre>
+				<!--SQL-->
+				<section>
+					<h2>SQL</h2>
+					<h4>Gestisci il DataBase</h4>
+					<pre>
 							<code data-trim data-line-numbers="1-7 | 9-13">
 								CREATE TABLE Persons (
 									PersonID int,
@@ -305,307 +320,316 @@
 									Address LIKE "%Piazza%"
 							</code>
 						</pre>
-					</section>
 				</section>
+			</section>
 
-				<!--Putting all together-->
-				<!--Cool demo-->
+			<!--Putting all together-->
+			<!--Cool demo-->
+			<section>
+				<!--Intro CMS-->
 				<section>
-					<!--Intro CMS-->
-					<section>
-                    	<h3>Dove si può trovare una Web App?</h3>
-					</section>
-                    <section>
-						<h3>Quasi ovunque</h3>
-						<p class="fragment fade-in-then-semi-out">Commercio elettronico</p>
-						<p class="fragment fade-in-then-semi-out">CRM</p>
-						<p class="fragment fade-in-then-semi-out">Motori di ricerca</p>
-						<p class="fragment fade-in-then-semi-out">Blog</p>
-						<p class="fragment fade-in-then-semi-out">E-commerce</p>
-						<p class="fragment fade-in">Applicazioni bancarie</p>
-					</section>
-					<section>
-						<q>E chi più ne ha più ne metta</q>
-						<h3 class="fragment fade-up">Tra questi i CMS</h3>
-					</section>
-                </section>
-				<!--Definizione di CMS-->
-				<section>
-					<h4>Che cos'è un CMS:</h4>
-					<section>
-						<q class="fragment fade-up">Content Management System</q>
-						<p class="fragment fade-up">Utilizzato per creare e gestire contenuti web in modo semplice</p>
-						<p class="fragment fade-up">Non necessita di conoscenze avanzate di programmazione</p>
-					</section>
-					<section>
-						<br/>Consente di gestire
-						<ul>
-							<li class="fragment fade-in"> 
-								<p class="fragment highlight-red">Struttura</p>
-								<ul>
-									<li class="fragment fade-up" >Impaginazione </li>
-									<li class="fragment fade-up" >Sezioni </li>
-									<li class="fragment fade-up" >...</li>
-								</ul>
-							</li>
-							<li class="fragment fade-in">
-								<p class="fragment highlight-red">Contenuto</p>
-								<ul>
-									<li class="fragment fade-up">Dati</li>
-									<li class="fragment fade-up">Informazioni in qualsiasi formato</li>
-									<li class="fragment fade-up">...</li>
-								</ul>
-							</li>
-						</ul>
-					</section>
-					<section>
-						<img style="width: 50%" data-src="./resources/images/layouts.jpg">
-					</section>
+					<h3>Dove si può trovare una Web App?</h3>
 				</section>
-				<!--Struttura CMS: Front-End, Back-End-->
 				<section>
-					<section>
-						<h3>In pratica?</h3>
-						<p class="fragment fade-up">Dividiamoci tra front-end e back-end</p>
-					</section>
-					<section>
-						Il front-end:
-						<h3 class="fragment fade-up">CMA</h3>
-						<q class="fragment fade-up">Content Management Application</q>
-						<p class="fragment fade-up">Pannello di controllo dell'utente</p>
-						<p class="fragment fade-up">Editor di tipo WYSIWYG</p>
-						<q class="fragment fade-in-then-semi-out">What You See Is What You Get</q>
-						<p class="fragment fade-up">Permette la modifica dei contenuti e della struttura in modo grafico e intuitivo</p>
-					</section>
-					<section>
-						Il back-end:
-						<h3 class="fragment fade-up">CDA</h3>
-						<q class="fragment fade-up">Content Delivery Application</q>
-						<p class="fragment fade-up">Implementa tutte le funzionalità dei <b>CMA</b></p>
-						<p class="fragment fade-up">Memorizza i contenuti e li rende disponibili per l'elaborazione</p>
-					</section>
-					<section>
-						<blockquote>
-							<p>L'unione fa la forza</p>
-						</blockquote>
-						<p class="fragment fade-up">Insieme <b>CMA</b> e <b>CDA</b> formano una piattaforma semplice da utilizzare.</p>
-					</section>
+					<h3>Quasi ovunque</h3>
+					<p class="fragment fade-in-then-semi-out">Commercio elettronico</p>
+					<p class="fragment fade-in-then-semi-out">CRM</p>
+					<p class="fragment fade-in-then-semi-out">Motori di ricerca</p>
+					<p class="fragment fade-in-then-semi-out">Blog</p>
+					<p class="fragment fade-in-then-semi-out">E-commerce</p>
+					<p class="fragment fade-in">Applicazioni bancarie</p>
 				</section>
-				<!--Tecnologie-->
 				<section>
-					<section>
-						<h3>Evoluzione dei CMS</h3>
-						<p>Le tecnologie si differenziano per i modi di</p>
-						<p class="fragment highlight-current-red">Archiviare i contenuti</p>
-						<p class="fragment highlight-current-red">Presentare graficamente i dati</p>
-					</section>
-					<!--Archiviazione dei dati-->
-					<section>
-						<p>Come vengono archiviate le informazioni?</p>
-						<h4 class="fragment highlight-blue">CMS Page-Based</h4> 
-						<h4 class="fragment highlight-green">CMS Object-Based</h4> 
-					</section>
-					<section>
-						<h3 class="fragment highlight-blue">CMS Page-Based</h3>
-						<p class="fragment fade-up">Archiviano un insieme di contenuti su intere pagine</p>
-						<p class="fragment fade-up">Poco scalabile</p>
-						<p class="fragment fade-up">Crea componenti non facilmente riutilizzabili</p>
-					</section>
-					<section>
-						<h3 class="fragment highlight-green">CMS Object-Based</h3>
-						<p class="fragment fade-up">Archiviano il contenuto dividendolo in <q>oggetti</q> o <q>items</q> più piccoli</p>
-						<p class="fragment fade-up">Diversi oggetti sono: </p>
-						<ul>
-							<li class="fragment fade-in-then-semi-out">Testo</li>
-							<li class="fragment fade-in-then-semi-out">Grafica</li>
-							<li class="fragment fade-in-then-semi-out">Componente utilizzato per creare il testo</li>
-						</ul>
-						<p class="fragment fade-up">Molto flessibile e scalabile</p>
-					</section>
-					<!--Presentazione dei dati-->
-					<section>
-						<p>Come vengono presentati graficamente i dati?</p>
-						<h4 class="fragment highlight-blue">CMS tradizionali o non-headless</h4> 
-						<h4 class="fragment highlight-green">CMS headless</h4> 
-					</section>
-					<section>
-						<h3 class="fragment highlight-blue">CMS Non-Headless</h3>
-						<p class="fragment fade-up">Creazione e presentazione dei contenuti unite in un solo livello</p>
-						<p class="fragment fade-up">Risultato finale difficile da distribuire</p>
-						<p class="fragment fade-up">Tutto il processo può essere gestito da una sola persona</p>
-					</section>
-					<section>
-						<h3 class="fragment highlight-green">CMS Headless</h3>
-						<p class="fragment fade-up">Architettura disaccoppiata tra contenuti e grafica</p>
-						<p class="fragment fade-up">Si comunica attraverso API</p>
-						<p class="fragment fade-up">Rende il contenuto facilmente adattabile a qualsiasi dispositivo</p>
-						<p class="fragment fade-up">Prima di ricevere i dati dal back-end serve un tempo minimo di elaborazione</p>
-					</section>
-					<section>
-						Ma a questo punto...
-						<p class="fragment fade-up">Perchè non combinare le due cose?</p>
-						<h3 class="fragment fade-up">CMS ibridi</h3> 
-						<p class="fragment fade-up">CMS Headless basati su oggetti</p>
-					</section>
+					<q>E chi più ne ha più ne metta</q>
+					<h3 class="fragment fade-up">Tra questi i CMS</h3>
 				</section>
-				<!--Tipi di CMS-->
+			</section>
+			<!--Definizione di CMS-->
+			<section>
+				<h4>Che cos'è un CMS:</h4>
 				<section>
-					<section>
-						<h3>CMS per tutti</h3>
-						<p class="fragment fade-up">Ogni ambito ha un proprio CMS</p>
-						<p class="fragment fade-up">Può essere generico o più specializzato</p>
-					</section>
-					<section>
-						<h4>Open source</h4>
-						<p class="fragment fade-up">Gratuito e senza licenza</p>
-						<p class="fragment fade-up">Necessario un web hosting separato</p>
-						<p class="fragment fade-up"style="text-align:left;">Permette di essere il più creativi e innovativi possibile...</p>
-						<p class="fragment fade-up" style="text-align: right;">...ma a che prezzo</p>
-						<span class="fragment fade-up">
-							<img style="width:25%" data-src="./resources/images/wp.png">
-						</span>
-					</section>
-					<section>
-						<h4>Proprietario</h4>
-						<p class="fragment fade-up">Concesso in licenza</p>
-						<p class="fragment fade-up">Pagamenti regolari per assistenza e manutenzione</p>
-						<p class="fragment fade-up">Specifico per l'ambito di interesse</p>
-						<p class="fragment fade-up">Non serve tanta creatività</p>
-						<p class="fragment fade-up">Punto forte: la sicurezza</p>
-						<span class="fragment fade-up">
-							<img style="width:40%" data-src="./resources/images/ms_sharepoint.png">
-						</span>
-					</section>
-					<section>
-						<h4>Software as a service (SaaS)</h4>
-						<p class="fragment fade-up">Concesso in licenza</p>
-						<p class="fragment fade-up">Pacchetto di servizi unico:</p>
-						<ul>
-							<li class="fragment fade-in-then-semi-out">Trasferimento dati</li>
-							<li class="fragment fade-in-then-semi-out">Archiviazione</li>
-							<li class="fragment fade-in-then-semi-out">Gestione contenuti</li>
-							<li class="fragment fade-in-then-semi-out">Supporto</li>
-						</ul>
-						<p class="fragment fade-up">Sistema basato sul cloud</p>
-						<span class="fragment fade-up">
-							<img style="width:30%" data-src="./resources/images/wp_hosting.jpg">
-						</span>
-					</section>
+					<q class="fragment fade-up">Content Management System</q>
+					<p class="fragment fade-up">Utilizzato per creare e gestire contenuti web in modo semplice</p>
+					<p class="fragment fade-up">Non necessita di conoscenze avanzate di programmazione</p>
 				</section>
-				<!--Applicazioni CMS-->
 				<section>
-					<section>
-						<h3>Quanti CMS esistono?</h3>
-						<p>Tantissimi, almeno uno per ambito:</p>
-						<ul>
-							<li class="fragment highlight-current-blue">Aziendale B2B e B2C (CRM e simili)</li>
-							<li class="fragment highlight-current-blue">Turismo</li>
-							<li class="fragment highlight-current-blue">Commercio elettronico</li>
-							<li class="fragment highlight-current-blue">Software</li>
-							<li class="fragment highlight-current-blue">Mobile</li>
-							<li class="fragment highlight-current-blue">E molto altro...</li>
-						</ul>
-					</section>
-					<section>
-						<p>Ogni CMS ha un nome diverso a seconda di cosa gestisce:</p>
-						<ul>
-							<li class="fragment fade-in-then-semi-out">Dynamic CMS, gestione dinamica della documentazione</li>
-							<li class="fragment fade-in-then-semi-out">Learning CMS, gestione contenuti web per la didattica</li>
-						</ul>
-						<h4 class="fragment fade-up">Soffermiamoci sui contenuti web e aziendali</h3>
-					</section>
-					<!--CMS per aziende-->
-					<section>
-						<h3>ECM</h3>
-						<q class="fragment fade-up">Enterprise Content Management</q>
-						<p class="fragment fade-up">Gestione contenuti aziendali</p>
-						<p class="fragment fade-up">Si sfrutta l'accesso a ruoli</p>						
-						<p class="fragment fade-up">Garantisce sicurezza per i dati aziendali</p>						
-					</section>
-					<!--CMS per web-->
-					<section>
-						<h3>WCM</h3>
-						<q class="fragment fade-up">Web Content Management</q>
-						<p class="fragment fade-up">Gestione contenuti web</p>
-						<p class="fragment fade-up">Usato per:</p>
-						<ul>
-							<li class="fragment fade-in-then-semi-out">Creare</li>
-							<li class="fragment fade-in-then-semi-out">Modificare</li>
-							<li class="fragment fade-in-then-semi-out">Pubblicare</li>
-						</ul>			
-						<p class="fragment fade-up">Il WCM più utilizzato?</p> 			
-						<h4 class="fragment fade-up">Wordpress</h4>						
-					</section>
+					<br />Consente di gestire
+					<ul>
+						<li class="fragment fade-in">
+							<p class="fragment highlight-red">Struttura</p>
+							<ul>
+								<li class="fragment fade-up">Impaginazione </li>
+								<li class="fragment fade-up">Sezioni </li>
+								<li class="fragment fade-up">...</li>
+							</ul>
+						</li>
+						<li class="fragment fade-in">
+							<p class="fragment highlight-red">Contenuto</p>
+							<ul>
+								<li class="fragment fade-up">Dati</li>
+								<li class="fragment fade-up">Informazioni in qualsiasi formato</li>
+								<li class="fragment fade-up">...</li>
+							</ul>
+						</li>
+					</ul>
 				</section>
+				<section>
+					<img style="width: 50%" data-src="./resources/images/layouts.jpg">
+				</section>
+			</section>
+			<!--Struttura CMS: Front-End, Back-End-->
+			<section>
+				<section>
+					<h3>In pratica?</h3>
+					<p class="fragment fade-up">Dividiamoci tra front-end e back-end</p>
+				</section>
+				<section>
+					Il front-end:
+					<h3 class="fragment fade-up">CMA</h3>
+					<q class="fragment fade-up">Content Management Application</q>
+					<p class="fragment fade-up">Pannello di controllo dell'utente</p>
+					<p class="fragment fade-up">Editor di tipo WYSIWYG</p>
+					<q class="fragment fade-in-then-semi-out">What You See Is What You Get</q>
+					<p class="fragment fade-up">Permette la modifica dei contenuti e della struttura in modo grafico e
+						intuitivo</p>
+				</section>
+				<section>
+					Il back-end:
+					<h3 class="fragment fade-up">CDA</h3>
+					<q class="fragment fade-up">Content Delivery Application</q>
+					<p class="fragment fade-up">Implementa tutte le funzionalità dei <b>CMA</b></p>
+					<p class="fragment fade-up">Memorizza i contenuti e li rende disponibili per l'elaborazione</p>
+				</section>
+				<section>
+					<blockquote>
+						<p>L'unione fa la forza</p>
+					</blockquote>
+					<p class="fragment fade-up">Insieme <b>CMA</b> e <b>CDA</b> formano una piattaforma semplice da
+						utilizzare.</p>
+				</section>
+			</section>
+			<!--Tecnologie-->
+			<section>
+				<section>
+					<h3>Evoluzione dei CMS</h3>
+					<p>Le tecnologie si differenziano per i modi di</p>
+					<p class="fragment highlight-current-red">Archiviare i contenuti</p>
+					<p class="fragment highlight-current-red">Presentare graficamente i dati</p>
+				</section>
+				<!--Archiviazione dei dati-->
+				<section>
+					<p>Come vengono archiviate le informazioni?</p>
+					<h4 class="fragment highlight-blue">CMS Page-Based</h4>
+					<h4 class="fragment highlight-green">CMS Object-Based</h4>
+				</section>
+				<section>
+					<h3 class="fragment highlight-blue">CMS Page-Based</h3>
+					<p class="fragment fade-up">Archiviano un insieme di contenuti su intere pagine</p>
+					<p class="fragment fade-up">Poco scalabile</p>
+					<p class="fragment fade-up">Crea componenti non facilmente riutilizzabili</p>
+				</section>
+				<section>
+					<h3 class="fragment highlight-green">CMS Object-Based</h3>
+					<p class="fragment fade-up">Archiviano il contenuto dividendolo in <q>oggetti</q> o <q>items</q> più
+						piccoli</p>
+					<p class="fragment fade-up">Diversi oggetti sono: </p>
+					<ul>
+						<li class="fragment fade-in-then-semi-out">Testo</li>
+						<li class="fragment fade-in-then-semi-out">Grafica</li>
+						<li class="fragment fade-in-then-semi-out">Componente utilizzato per creare il testo</li>
+					</ul>
+					<p class="fragment fade-up">Molto flessibile e scalabile</p>
+				</section>
+				<!--Presentazione dei dati-->
+				<section>
+					<p>Come vengono presentati graficamente i dati?</p>
+					<h4 class="fragment highlight-blue">CMS tradizionali o non-headless</h4>
+					<h4 class="fragment highlight-green">CMS headless</h4>
+				</section>
+				<section>
+					<h3 class="fragment highlight-blue">CMS Non-Headless</h3>
+					<p class="fragment fade-up">Creazione e presentazione dei contenuti unite in un solo livello</p>
+					<p class="fragment fade-up">Risultato finale difficile da distribuire</p>
+					<p class="fragment fade-up">Tutto il processo può essere gestito da una sola persona</p>
+				</section>
+				<section>
+					<h3 class="fragment highlight-green">CMS Headless</h3>
+					<p class="fragment fade-up">Architettura disaccoppiata tra contenuti e grafica</p>
+					<p class="fragment fade-up">Si comunica attraverso API</p>
+					<p class="fragment fade-up">Rende il contenuto facilmente adattabile a qualsiasi dispositivo</p>
+					<p class="fragment fade-up">Prima di ricevere i dati dal back-end serve un tempo minimo di
+						elaborazione</p>
+				</section>
+				<section>
+					Ma a questo punto...
+					<p class="fragment fade-up">Perchè non combinare le due cose?</p>
+					<h3 class="fragment fade-up">CMS ibridi</h3>
+					<p class="fragment fade-up">CMS Headless basati su oggetti</p>
+				</section>
+			</section>
+			<!--Tipi di CMS-->
+			<section>
+				<section>
+					<h3>CMS per tutti</h3>
+					<p class="fragment fade-up">Ogni ambito ha un proprio CMS</p>
+					<p class="fragment fade-up">Può essere generico o più specializzato</p>
+				</section>
+				<section>
+					<h4>Open source</h4>
+					<p class="fragment fade-up">Gratuito e senza licenza</p>
+					<p class="fragment fade-up">Necessario un web hosting separato</p>
+					<p class="fragment fade-up" style="text-align:left;">Permette di essere il più creativi e innovativi
+						possibile...</p>
+					<p class="fragment fade-up" style="text-align: right;">...ma a che prezzo</p>
+					<span class="fragment fade-up">
+						<img style="width:25%" data-src="./resources/images/wp.png">
+					</span>
+				</section>
+				<section>
+					<h4>Proprietario</h4>
+					<p class="fragment fade-up">Concesso in licenza</p>
+					<p class="fragment fade-up">Pagamenti regolari per assistenza e manutenzione</p>
+					<p class="fragment fade-up">Specifico per l'ambito di interesse</p>
+					<p class="fragment fade-up">Non serve tanta creatività</p>
+					<p class="fragment fade-up">Punto forte: la sicurezza</p>
+					<span class="fragment fade-up">
+						<img style="width:40%" data-src="./resources/images/ms_sharepoint.png">
+					</span>
+				</section>
+				<section>
+					<h4>Software as a service (SaaS)</h4>
+					<p class="fragment fade-up">Concesso in licenza</p>
+					<p class="fragment fade-up">Pacchetto di servizi unico:</p>
+					<ul>
+						<li class="fragment fade-in-then-semi-out">Trasferimento dati</li>
+						<li class="fragment fade-in-then-semi-out">Archiviazione</li>
+						<li class="fragment fade-in-then-semi-out">Gestione contenuti</li>
+						<li class="fragment fade-in-then-semi-out">Supporto</li>
+					</ul>
+					<p class="fragment fade-up">Sistema basato sul cloud</p>
+					<span class="fragment fade-up">
+						<img style="width:30%" data-src="./resources/images/wp_hosting.jpg">
+					</span>
+				</section>
+			</section>
+			<!--Applicazioni CMS-->
+			<section>
+				<section>
+					<h3>Quanti CMS esistono?</h3>
+					<p>Tantissimi, almeno uno per ambito:</p>
+					<ul>
+						<li class="fragment highlight-current-blue">Aziendale B2B e B2C (CRM e simili)</li>
+						<li class="fragment highlight-current-blue">Turismo</li>
+						<li class="fragment highlight-current-blue">Commercio elettronico</li>
+						<li class="fragment highlight-current-blue">Software</li>
+						<li class="fragment highlight-current-blue">Mobile</li>
+						<li class="fragment highlight-current-blue">E molto altro...</li>
+					</ul>
+				</section>
+				<section>
+					<p>Ogni CMS ha un nome diverso a seconda di cosa gestisce:</p>
+					<ul>
+						<li class="fragment fade-in-then-semi-out">Dynamic CMS, gestione dinamica della documentazione
+						</li>
+						<li class="fragment fade-in-then-semi-out">Learning CMS, gestione contenuti web per la didattica
+						</li>
+					</ul>
+					<h4 class="fragment fade-up">Soffermiamoci sui contenuti web e aziendali</h3>
+				</section>
+				<!--CMS per aziende-->
+				<section>
+					<h3>ECM</h3>
+					<q class="fragment fade-up">Enterprise Content Management</q>
+					<p class="fragment fade-up">Gestione contenuti aziendali</p>
+					<p class="fragment fade-up">Si sfrutta l'accesso a ruoli</p>
+					<p class="fragment fade-up">Garantisce sicurezza per i dati aziendali</p>
+				</section>
+				<!--CMS per web-->
+				<section>
+					<h3>WCM</h3>
+					<q class="fragment fade-up">Web Content Management</q>
+					<p class="fragment fade-up">Gestione contenuti web</p>
+					<p class="fragment fade-up">Usato per:</p>
+					<ul>
+						<li class="fragment fade-in-then-semi-out">Creare</li>
+						<li class="fragment fade-in-then-semi-out">Modificare</li>
+						<li class="fragment fade-in-then-semi-out">Pubblicare</li>
+					</ul>
+					<p class="fragment fade-up">Il WCM più utilizzato?</p>
+					<h4 class="fragment fade-up">Wordpress</h4>
+				</section>
+			</section>
 
-				<!--XAMPP intro-->
+			<!--XAMPP intro-->
+			<section>
+				<h1>XAMPP</h1>
+				<p class="fragment fade-up">Come creare contenuti con un CMS?</p>
+			</section>
+			<section>
 				<section>
-					<h1>XAMPP</h1>
-					<p class="fragment fade-up">Come creare contenuti con un CMS?</p> 			
+					<p>Esistono due diverse opzioni:</p>
+					<ul>
+						<li class="fragment highlight-blue">Online</li>
+						<li class="fragment highlight-green">Locale</li>
+					</ul>
 				</section>
 				<section>
-					<section>
-						<p>Esistono due diverse opzioni:</p>
-						<ul>
-							<li class="fragment highlight-blue">Online</li>
-							<li class="fragment highlight-green">Locale</li>
-						</ul>
-					</section>
-					<section>
-						<h3 class="fragment highlight-blue">Online</h3>
-						<p class="fragment fade-up">Accessibile da qualsiasi dispositivo</p> 			
-						<p class="fragment fade-up">Connessione internet non sempre disponibile</p> 			
-					</section>
-					<section>
-						<h3 class="fragment highlight-green">Locale</h3>
-						<p class="fragment fade-up">Veloce</p> 	
-						<p class="fragment fade-up">Offline</p> 
-						<p class="fragment fade-up">Non visibile da altri</p> 			
-						<p class="fragment fade-up">Richiede l'installazione di un application server</p>
-						<p class="fragment fade-up" style="text-align: right;">...Ma è davvero uno svantaggio?</p>		
-					</section>
+					<h3 class="fragment highlight-blue">Online</h3>
+					<p class="fragment fade-up">Accessibile da qualsiasi dispositivo</p>
+					<p class="fragment fade-up">Connessione internet non sempre disponibile</p>
 				</section>
-				<!--Componenti XAMPP-->
 				<section>
-					<h4>Che cosa è XAMPP:</h4>
-					<section>
-						<p class="fragment fade-up">Raggruppa in una sola piattaforma gli strumenti necessari per lo sviluppo web</p>
-					</section>
-					<section>
-						<h3>X: Cross-Platform</h3>
-						<p class="fragment fade-up">Applicazione software funzionante su più di un sistema</p>
-						<p class="fragment fade-up">Microsoft Windows</p>
-						<p class="fragment fade-up">Sistemi Unix-like</p>
-					</section>
-					<section>
-						<h3>A: Apache HTTP Server</h3>
-						<p class="fragment fade-up">Semplice, open source e testato</p>
-						<p class="fragment fade-up">Web Application Server che elabora e risponde alle richieste del client</p>
-						<p class="fragment fade-up">Funzionalità principali gestite dal file httpd.conf</p>
-						<p class="fragment fade-up">Gestione del singolo sito con .htaccess</p>
-					</section>
-					<section>
-						<h3>M: MySQL</h3>
-						<p class="fragment fade-up">Supportato da molti CMS e open source</p>
-						<p class="fragment fade-up">DBMS (DataBase Management System)</p>
-						<p class="fragment fade-up">Sistema software per la gestione efficiente del database</p>
-						<p class="fragment fade-up">Client a riga di comando + Server</p>
-					</section>
-					<section>
-						<h3>P: PHP</h3>
-						<p class="fragment fade-up">Open source</p>
-						<p class="fragment fade-up">Linguaggio di scripting lato server</p>
-						<p class="fragment fade-up">Integrato tramite API con Apache e MySQL</p>
-						<p class="fragment fade-up">Esistono molte librerie disponibili online</p>
-					</section>
-					<section>
-						</br>
-						<h3>P: Perl</h3>
-						<p class="fragment fade-up">Open source</p>
-						<p class="fragment fade-up">Linguaggio di programmazione ad alto livello</p>
-						<p class="fragment fade-up">Combina linguaggi come C e scripting shell Unix</p>
-						<p class="fragment fade-up">Compatibile con diversi compilatori</p>
-						<pre class="fragment fade-up">
+					<h3 class="fragment highlight-green">Locale</h3>
+					<p class="fragment fade-up">Veloce</p>
+					<p class="fragment fade-up">Offline</p>
+					<p class="fragment fade-up">Non visibile da altri</p>
+					<p class="fragment fade-up">Richiede l'installazione di un application server</p>
+					<p class="fragment fade-up" style="text-align: right;">...Ma è davvero uno svantaggio?</p>
+				</section>
+			</section>
+			<!--Componenti XAMPP-->
+			<section>
+				<h4>Che cosa è XAMPP:</h4>
+				<section>
+					<p class="fragment fade-up">Raggruppa in una sola piattaforma gli strumenti necessari per lo
+						sviluppo web</p>
+				</section>
+				<section>
+					<h3>X: Cross-Platform</h3>
+					<p class="fragment fade-up">Applicazione software funzionante su più di un sistema</p>
+					<p class="fragment fade-up">Microsoft Windows</p>
+					<p class="fragment fade-up">Sistemi Unix-like</p>
+				</section>
+				<section>
+					<h3>A: Apache HTTP Server</h3>
+					<p class="fragment fade-up">Semplice, open source e testato</p>
+					<p class="fragment fade-up">Web Application Server che elabora e risponde alle richieste del client
+					</p>
+					<p class="fragment fade-up">Funzionalità principali gestite dal file httpd.conf</p>
+					<p class="fragment fade-up">Gestione del singolo sito con .htaccess</p>
+				</section>
+				<section>
+					<h3>M: MySQL</h3>
+					<p class="fragment fade-up">Supportato da molti CMS e open source</p>
+					<p class="fragment fade-up">DBMS (DataBase Management System)</p>
+					<p class="fragment fade-up">Sistema software per la gestione efficiente del database</p>
+					<p class="fragment fade-up">Client a riga di comando + Server</p>
+				</section>
+				<section>
+					<h3>P: PHP</h3>
+					<p class="fragment fade-up">Open source</p>
+					<p class="fragment fade-up">Linguaggio di scripting lato server</p>
+					<p class="fragment fade-up">Integrato tramite API con Apache e MySQL</p>
+					<p class="fragment fade-up">Esistono molte librerie disponibili online</p>
+				</section>
+				<section>
+					</br>
+					<h3>P: Perl</h3>
+					<p class="fragment fade-up">Open source</p>
+					<p class="fragment fade-up">Linguaggio di programmazione ad alto livello</p>
+					<p class="fragment fade-up">Combina linguaggi come C e scripting shell Unix</p>
+					<p class="fragment fade-up">Compatibile con diversi compilatori</p>
+					<pre class="fragment fade-up">
 							<code data-trim data-line-numbers="1-5">
 								#!/usr/bin/perl
 								while(<>){
@@ -614,59 +638,97 @@
 								}
 							</code>
 						</pre>
-					</section>
-					<section>
-						<h3>Server FTP: FileZilla</h3>
-						<p class="fragment fade-up">Gratuito</p>
-						<p class="fragment fade-up">Supporta i protocolli FTP e FTPS (SSL/TLS)</p>
-					</section>
-					<section>
-						<h3>Mail Server: Mercury mail transport system</h3>
-						<p class="fragment fade-up">Gratuito</p>
-						<p class="fragment fade-up">Gestione della posta elettronica tra più dispositivi</p>
-					</section>
-				</section>
-				<!--Installare XAMPP-->
-				<section>
-					<h2>Passiamo alla pratica</h2>
-					<p class="fragment fade-up">Installiamo XAMPP</p>
-					<a class="fragment fade-up" href="https://www.apachefriends.org/it/download.html">www.apachefriends.org/it/download.html</a>
-				</section>
-				<!-- Day 2 -->
-				<section>
-					<h1>Giorno 2</h1>
-					<p>Front-end & WordPress</p>
-				</section>	
-				<section>
-					<h3>WordPress</h3>
-					<p>Text hold</p>
 				</section>
 				<section>
-					<h3>Pratico: installiamo WordPress</h3>
-					<p>Text hold</p>
-				</section>				
-					
-				<section>
-					<h1>Giorno 3</h1>
-					<p>WordPress Workshop</p>
+					<h3>Server FTP: FileZilla</h3>
+					<p class="fragment fade-up">Gratuito</p>
+					<p class="fragment fade-up">Supporta i protocolli FTP e FTPS (SSL/TLS)</p>
 				</section>
-			</div>
+				<section>
+					<h3>Mail Server: Mercury mail transport system</h3>
+					<p class="fragment fade-up">Gratuito</p>
+					<p class="fragment fade-up">Gestione della posta elettronica tra più dispositivi</p>
+				</section>
+			</section>
+			<!--Installare XAMPP-->
+			<section>
+				<h2>Passiamo alla pratica</h2>
+				<p class="fragment fade-up">Installiamo XAMPP</p>
+				<a class="fragment fade-up"
+					href="https://www.apachefriends.org/it/download.html">www.apachefriends.org/it/download.html</a>
+			</section>
+			<!-- Day 2 -->
+			<section>
+				<h1>Giorno 2</h1>
+				<p class="fragment fade-up">Introduzione a <span style="color:#0073aa;">WordPress</span> e <span
+						style="color: red;">best practice</span></p>
+			</section>
+			<section>
+				<section>
+					<h2>Cos'è Wordpress?</h2>
+					<p class="fragment fade-up">È il metodo <span class="fragment highlight-red">più semplice</span>, ma
+						anche il più polare per creare un sito web.</p>
+					<p class="fragment fade-up">Oltre il <span style="color: mediumseagreen;">40%</span> di tutti i siti
+						web sono implementati con WordPress</p>
+				</section>
+				<section>
+					<h3><span class="fade-right">Cos'hanno in comune</span>
+						<span class="fragment fade-up">Biden</span><span class="fragment fade-right">,
+							Beyoncè</span><span class="fragment fade-right"> e i Rolling Stones?</span>
+					</h3>
+				</section>
+				<section data-background-image="./resources/images/white-house-website.png">
+					<div
+						style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>Usano tutti <span style="color: #0073aa;">WordPress...</span></h2>
+					</div>
+				</section>
+				<section data-background-image="./resources/images/beyonce-website.png">
+					<div
+						style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h3>...perché è adattabile a molteplici utilizzi...</h3>
+					</div>
+				</section>
+				<section data-background-iframe="https://rollingstones.com/">
+					<div
+					style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+					<h2>Ma soprattutto <span style="color: #0073aa;">WP</span> è estensibile</h2>
+					<ul>
+						<li>Temi</li>
+						<li>Plugin</li>
+					</ul>
+				</div></section>
+			</section>
+			<section>
+				<h3>Pratico: installiamo WordPress</h3>
+				<p>Text hold</p>
+			</section>
+			<section>
+				<img style="width:100%" src="resources/images/backend-wordpress.png">
+			</section>
+
+			<section>
+				<h1>Giorno 3</h1>
+				<p>WordPress Workshop</p>
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
