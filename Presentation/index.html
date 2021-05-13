@@ -24,7 +24,7 @@
 				<h1>Giorno 1</h1>
 				<p class="fragment"> Introduzione al WEB, ai suoi componenti e alle tecnologie.</p>
 			</section>
-			
+
 			<!--Web-->
 			<section>
 				Web
@@ -169,36 +169,36 @@
 					<h2>CSS</h2>
 					<h4>Colora il contenuto</h4>
 					<pre>
-							<code data-trim data-line-numbers="2-4 | 6-9 | 11-14 | 16-19 | 21-27">
-								<style>
-								  div {
-								    background-color: black;
-								  }
-								  
-								  p {
-								  	text-decoration-color: aquamarine;
-								  	font-family: 'Courier New', Courier, monospace;
-								  }
+						<code data-trim data-line-numbers="2-4 | 6-9 | 11-14 | 16-19 | 21-27">
+							<style>
+								div {
+								background-color: black;
+								}
+								
+								p {
+								text-decoration-color: aquamarine;
+								font-family: 'Courier New', Courier, monospace;
+								}
 
-								  h1 {
-								  	color: maroon;
-								  	margin-left: 40px;
-								  }
+								h1 {
+								color: maroon;
+								margin-left: 40px;
+								}
 
-								  .laMiaClasseCSS {
-								  	text-decoration-color: white;
-								  	text-align: right;
-								  }
-								</style>
-								<div>
-									<h1>Titolone Colorato!</h1>
-									<p>Paragrafo col testo azzurro!</p>
-									<div class="laMiaClasseCSS">
-										Testo bianco con lo sfondo nero!
-									</div>
+								.laMiaClasseCSS {
+								text-decoration-color: white;
+								text-align: right;
+								}
+							</style>
+							<div>
+								<h1>Titolone Colorato!</h1>
+								<p>Paragrafo col testo azzurro!</p>
+								<div class="laMiaClasseCSS">
+									Testo bianco con lo sfondo nero!
 								</div>
-							</code>
-						</pre>
+							</div>
+						</code>
+					</pre>
 				</section>
 
 				<!--JS-->
@@ -219,14 +219,14 @@
 								<div id="esempio"></div>
 							</code>
 						</pre>
-					</section>
-					
-					<!--Final remark on frameworks-->
-					<section>
-						<h3>Frameworks:</h3>
-						<img data-src="./resources/images/frameworks.jpeg">
-					</section>					
 				</section>
+
+				<!--Final remark on frameworks-->
+				<section>
+					<h3>Frameworks:</h3>
+					<img data-src="./resources/images/frameworks.jpeg">
+				</section>
+			</section>
 			</section>
 			<!--Back End-->
 			<section>
@@ -635,8 +635,8 @@
 			<section>
 				<section>
 					<h2>Cos'è Wordpress?</h2>
-					<p class="fragment fade-up">È il metodo <span class="fragment highlight-red">più semplice</span>, ma
-						anche il più polare per creare un sito web.</p>
+					<p class="fragment fade-up">È il metodo <span class="fragment highlight-red">più semplice</span>,
+						e quindi il più polare per creare un sito web.</p>
 					<p class="fragment fade-up">Oltre il <span style="color: mediumseagreen;">40%</span> di tutti i siti
 						web sono implementati con WordPress</p>
 				</section>
@@ -660,15 +660,16 @@
 				</section>
 				<section data-background-iframe="https://rollingstones.com/">
 					<div class="fragment fade-up"
-					style="position: absolute; 700px; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0,0,0,0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-					<h2>Ma soprattutto <span style="color: #0073aa;">WP</span> è estensibile</h2>
-					<ul>
-						<li>Temi</li>
-						<li>Plugin</li>
-					</ul>
-				</div></section>
+						style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0,0,0,0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>Ma soprattutto <span style="color: #0073aa;">WP</span> è estensibile</h2>
+						<ul>
+							<li>Temi</li>
+							<li>Plugin</li>
+						</ul>
+					</div>
+				</section>
 			</section>
-			
+
 			<!--Pratico: Installo WP-->
 			<section>
 				<section>
@@ -676,8 +677,9 @@
 					<p><a href="https://wordpress.org/download/" target="_blank">https://wordpress.org/download/</a></p>
 				</section>
 				<section>
-					<p>Estrai il file .zip appena scaricato ed inserisci i contenuti 
-						della cartella <span style="color: #20a4e2;">/wordpress</span> appena estratta all'interno della cartella <span style="color: #20a4e2;">/htdocs/prova.it</span>.
+					<p>Estrai il file .zip appena scaricato ed inserisci i contenuti
+						della cartella <span style="color: #20a4e2;">/wordpress</span> appena estratta all'interno della
+						cartella <span style="color: #20a4e2;">/htdocs/prova.it</span>.
 					</p>
 				</section>
 				<section>
@@ -725,8 +727,97 @@
 
 			</section>
 			<section>
-				<img style="width:100%" src="resources/images/backend-wordpress.png">
+				<section>
+					<h3>WP è un CMS per Blog</h3>
+					<p class="fragment fade-up"><small>O almeno lo era alla nascita</small></p>
+					<div class="fragment fade-up">
+						<p>Il suo core si basa sui Post Type</p>
+						<ul style="list-style: none; font-size: 28px;">
+							<li>Post (Post Type: ‘post’)</li>
+							<li>Page (Post Type: ‘page’)</li>
+							<li>Attachment (Post Type: ‘attachment’)</li>
+							<li>Revision (Post Type: ‘revision’)</li>
+							<li>Navigation menu (Post Type: ‘nav_menu_item’)</li>
+						</ul>
+						<p class="fragment fade-up">Si possono definire anche dei tipi personalizzati<br><span
+								style="color: #0073aa;">Custom Post Type</span></p>
+					</div>
+				</section>
+				<section>
+					<h3>Pagine</h3>
+					<ul style="font-size: 28px;">
+						<li>Indipendenti dal tempo</li>
+						<li>Non sono organizzate usando categorie o altre tassonomie</li>
+						<li>Possono avere template specifici per la singola instanza</li>
+						<li>Possono essere organizzate in una gerarchia (Padre/Figlio) con altre pagine</li>
+					</ul>
+					<div class="fragment fade-up">
+						<p>Sono strutture statiche del sito, generalmente usate per le pagine</p>
+						<p style="font-size:28px;">
+							Home Page - Chi siamo - Contatti - FAQ
+						</p>
+					</div>
+				</section>
+				<section>
+					<h3>Post</h3>
+					<small>I post sono un tipo di Post Type</small>
+					<ul>
+						<li>Mostrate in ordine inverso in base alla data di creazione, dal più recente al più vecchio
+						</li>
+						<li>Hanno una data di creazione</li>
+						<li>Dovrebbero avere sempre una tassonomia applicata<br><small>(Se manca ne viene
+								automaticamente assegnata una di default)</small></li>
+					</ul>
+					<p>Vengono usati per creare dei feeds</p>
+				</section>
+				<section>
+					<h3>Allegati</h3>
+					<ul>
+						<li>Contengono le informazioni (come nome o descrizione) dei file caricati</li>
+						<li>Per le immagini, includono anche i metadata che verrano inseriti nella tabella wp_postmeta
+						</li>
+						<small>(grandezza, thumbnails, location)</small>
+					</ul>
+				</section>
+				<section>
+					<h3>Custom Post Type</h3>
+					<small>Funzione avanzata</small>
+					<p>Si possono creare dei tipi personalizzati e assegnare ad essi dei template specifici per la presenzione all'utente</p>
+				</section>
 			</section>
+			<section>
+				<section>
+					<h3><span style="color: #0073aa;">WP</span> è personalizabile ed estensibile</h3>
+					<p style="color: red;" class="fragment fade-up">Ma come?</p>
+					<p><span class="fragment fade-right" style="color: #0073aa;">Temi</span><span
+							class="fragment fade-right"> e <span style="color: #0073aa;">Plugin</span></span></p>
+				</section>
+				<section>
+					<h2>Temi</h2>
+					<p>In <span style="color: #0073aa;">WP</span> sono il cardine delle nostre WebApp</p>
+					<ul style="list-style-type:none;">
+						<p>Hanno svariati compiti</p>
+						<li class="fragment highlight-current-blue">Accedono ai dati</li>
+						<li class="fragment highlight-current-blue">Generano le view</li>
+						<li class="fragment highlight-current-blue">Registrano i supporti per i widget, le sidebar e
+							menu</li>
+						<li class="fragment highlight-current-blue">Possono definire funzionalità proprie</li>
+					</ul>
+				</section>
+				<!--<section>
+					<pre>
+						<code data-trim>
+							register_nav_menus( array(
+								'primary'   => __('Primary Menu', 'myfirsttheme'),
+								'secondary' => __('Secondary Menu', 'myfirsttheme')
+							) );
+						</code>
+					</pre>
+				</section>
+				<section>
+					<img src="resources/images/template-hierarcy.png" alt="template-hierarcy">
+				</section>
+			</section>-->
 
 			<section>
 				<h1>Giorno 3</h1>
