@@ -677,10 +677,7 @@
 					<p><a href="https://wordpress.org/download/" target="_blank">https://wordpress.org/download/</a></p>
 				</section>
 				<section>
-					<p>Estrai il file .zip appena scaricato ed inserisci i contenuti
-						della cartella <span style="color: #20a4e2;">/wordpress</span> appena estratta all'interno della
-						cartella <span style="color: #20a4e2;">/htdocs/prova.it</span>.
-					</p>
+					<img src="resources/images/spacchetta_wp.png">
 				</section>
 				<section>
 					<img style="width: 40%;" src="resources/images/phpmyadmin_logo.png">
@@ -710,21 +707,72 @@
 				</section>
 				<section>
 					<div style="width: 100%;">
-						<div style="width: 30%; float: left; padding-right: 10%;">
-							<img src="resources/images/nuovo_db.png">
+						<div class="fragment fade-in" data-fragment-index="2" 
+						style="width: 30%; float: left; padding-right: 10%;">
+							<img style="border-radius: 8%;" src="resources/images/nuovo_db.png">
 						</div>
-						<div style="width: 50%; float: left;">
-							<p>In primo luogo creiamo un database da dedicare a WordPress.</p>
-							<p class="fragment fade-up">Premiamo su <span style="font-style: italic;">Nuovo</span>
-							e diamo un nome al database (ex. <span style="font-style: italic;">"wp_db"</span>).
+						<div style="width: 60%; float: left;">
+							<p style="text-align: left;">In primo luogo creiamo un database da dedicare a WordPress.</p>
+							<p class="fragment fade-up" data-fragment-index="1" style="text-align: left;">Premiamo su 
+								<span style="font-style: italic;">Nuovo</span>
+							e diamo un nome al database (ex. <span style="font-style: italic; color: #20a4e2;">"wp_db"</span>).
+							</p>
+							<p class="fragment fade-up" data-fragment-index="3" style="text-align: left;">
+								Premiamo <span style="font-style: italic; color: #20a4e2;">crea</span>.
 							</p>
 						</div>
 					</div>
 				</section>
 				<section>
-					<img src="resources/images/webapp.svg">
+					<div style="width: 100%;">
+						<div style="width: 50%; float: left;">
+							<p style="text-align: right; padding-top: 10%;">Ora dobbiamo creare un user per 
+								<span style="color: #20a4e2;">WordPress</span>.</p>
+							<p class="fragment fade-up" data-fragment-index="1" style="text-align: right; padding-top: 5%;">
+								Rimanendo nel nuovo database, premiamo su 
+								<span style="font-style: italic; color:#20a4e2">Privilegi</span>,
+								quindi premiamo su 
+								<span style="font-style: italic; color: #20a4e2;">Aggiungi account utente</span>.
+							</p>
+						</div>
+						<div class="fragment fade-in" data-fragment-index="2" 
+						style="width: 45%; float: left; padding-left: 5%;">
+							<img style="border-radius: 8%;" src="resources/images/nuovo_user.png">
+						</div>
+					</div>
 				</section>
-
+				<section>
+					<img style="border-radius: 8%; width: 70%;" src="resources/images/user_settings.png">
+				</section>
+				<section>
+					<p>È importante ai fini della sicurezza non dare al nuovo user altri privilegi se non quelli
+						del database <span style="font-style: italic;">"wp_db"</span>.<br>In questo modo WP non potrà
+						andare a modificare gli altri dati.
+					</p>
+					<p class="fragment fade-up">
+						Ora teniamo a mente i dati inseriti e procediamo alla vera e propria installazione.
+					</p>
+				</section>
+				<section>
+					<p>Andiamo alla pagina 
+						<a href="localhost/prova.it" style="color:#20a4e2; font-style: italic;">localhost/prova.it</a>.
+					</p>
+					<p>Dopo aver impostato la lingua ed aver letto le informazioni,
+						dobbiamo inserire i dati delle strutture appena create.
+					</p>
+					<img style="width: 60%; border-radius: 8%;" src="resources/images/wp_setup.png">
+				</section>
+				<section>
+					<img style="width: 60%; border-radius: 8%;" src="resources/images/wp_account.png">
+				</section>
+				<section>
+					<p>Dopo aver completato l'installazione possiamo finalmente guardare
+						il nostro sito a <a href="localhost/prova.it" style="color:#20a4e2; font-style: italic;">localhost/prova.it</a>.
+					</p>
+					<p>oppure andare a guardare la console di WordPress 
+						<a href="localhost/prova.it/wp-admin" style="color:#20a4e2; font-style: italic;">localhost/prova.it/wp-admin</a>.
+					</p>
+				</section>
 			</section>
 			<section>
 				<section>
