@@ -1,3 +1,4 @@
+w
 <!doctype html>
 <html>
 
@@ -18,7 +19,6 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-
 			<!--Title-->
 			<section>
 				<h1>Giorno 1</h1>
@@ -811,6 +811,31 @@
 					<h3>Template Hierarcy</h3>
 					<img src="resources/images/template-hierarcy.png" alt="template-hierarcy">
 				</section>
+				<section>
+					<h3>Esempio</h3>
+					<p style="font-size: 25px;">Ipotizziamo che il vostro sito sia
+						a <code>http://example.com/blog/</code> e un visitatore clicca su un link per la pagina della
+						categoria <code>http://example.com/blog/category/your-cat/</code>, WordPress guarderà nei file
+						del tema attualmente attivo per cercare il file corretto per la categoria selezionata. Nello
+						specifico WP esegue questi passaggi:</p>
+					<ol style="font-size: 25px;">
+						<li class="fragment fade-in-then-semi-out">Guarda nei file del tema attivo che corrisponde allo
+							slug della categoria.
+							Ipotizziamo che lo slug della categoria sia "unicorni", allora WP cercherà il file
+							<code>category-unicorni.php</code>.
+						</li>
+						<li class="fragment fade-in-then-semi-out">Se <code>category-unicorni.php</code> è mancante e
+							l'id della categoria è, immaginiamo, 4,
+							WordPress cercherà il file <code>category-4.php</code>.</li>
+						<li class="fragment fade-in-then-semi-out">Se ancora <code>category-4.php</code> è mancante, WP
+							cercherà il file generico <code>category.php</code>.</li>
+						<li class="fragment fade-in-then-semi-out">Se <code>category.php</code> non esiste, WP cercherà
+							il file per il generico archivio, <code>archive.php</code>.</li>
+						<li class="fragment fade-in-then-semi-out">Infine se <code>archive.php</code> è mancante, WP
+							usara il template generico nel file <code>index.php</code>, sempre presente per un tema
+							valido.</li>
+					</ol>
+				</section>
 			</section>
 
 			<section>
@@ -899,17 +924,22 @@
 				<section>
 					<h2>Plugin</h2>
 					<small class="fragment fade-up">Opzionali, ma molto potenti</small>
-					<p class="fragment fade-up">I plugins sono dei pacchetti di codice in grado di estendere le funzionalità del core di <span style="color: #0073aa;">WP</span></p>
-					<p class="fragment fade-up">I plugins sono scritti in <span style="color: #0073aa;">PHP</span>, il linguaggio del core, ma posso includere anche altri tipi di
+					<p class="fragment fade-up">I plugins sono dei pacchetti di codice in grado di estendere le
+						funzionalità del core di <span style="color: #0073aa;">WP</span></p>
+					<p class="fragment fade-up">I plugins sono scritti in <span style="color: #0073aa;">PHP</span>, il
+						linguaggio del core, ma posso includere anche altri tipi di
 						file come immagini, CSS, JS...</p>
 				</section>
 				<section>
 					<h3>Demo Plugin</h3>
 					<p>Plugin consigliati:</p>
 					<ul>
-						<li><a href="https://contactform7.com/">Contact Form 7</a> - <a href="https://pl.wordpress.org/plugins/contact-form-cfdb7/" style="font-size:  28px;">Contact Form CFDB7</a></li>
+						<li><a href="https://contactform7.com/">Contact Form 7</a> - <a
+								href="https://pl.wordpress.org/plugins/contact-form-cfdb7/"
+								style="font-size:  28px;">Contact Form CFDB7</a></li>
 						<li><a href="https://www.wordfence.com/">Wordfence Security</a></li>
-						<li><a href="https://wordpress.org/plugins/wp-optimize/">WP-Optimize - Clean, Compress, Cache</a></li>
+						<li><a href="https://wordpress.org/plugins/wp-optimize/">WP-Optimize - Clean, Compress,
+								Cache</a></li>
 						<li><a href="https://wordpress.org/plugins/wps-hide-login/">WPS Hide Login</a></li>
 						<li><a href="https://it.wordpress.org/plugins/wordpress-seo/">Yoast SEO</a></li>
 					</ul>
@@ -924,6 +954,7 @@
 	</div>
 
 	<script src="dist/reveal.js"></script>
+	<script src="plugin/zoom/zoom.js"></script>
 	<script src="plugin/notes/notes.js"></script>
 	<script src="plugin/markdown/markdown.js"></script>
 	<script src="plugin/highlight/highlight.js"></script>
@@ -935,7 +966,7 @@
 			hash: true,
 
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+			plugins: [RevealZoom, RevealMarkdown, RevealHighlight, RevealNotes,]
 		});
 	</script>
 </body>
