@@ -950,6 +950,213 @@ w
 				<h1>Giorno 3</h1>
 				<p>WordPress Workshop</p>
 			</section>
+			<section>
+				<div style="float:left; width: 125%;">
+					<img class="fragment fade-out" data-fragment-index="0" src="resources/images/connect0.svg"/>
+					<img class="fragment fade-in" data-fragment-index="0" src="resources/images/connect1.svg" style="position: relative; top: -681.5px;"/>
+				</div>
+				<div style="position: absolute; top: 500px; left: 80px;">
+					<p style="font-size: 130%;"><span class="fragment highlight-blue" data-fragment-index="0">Connettersi</span> alla rete.</p>
+				</div>				
+			</section>
+			<section>
+				<section>
+					<h1>Il server</h1>
+					<p>Una <span class="fragment highlight-blue">memoria</span>, un
+						<span class="fragment highlight-blue">processo</span>, una
+						<span class="fragment highlight-blue">connessione</span>.
+					</p>
+				</section>
+				<section>
+					<p>Tutte e tre le cose sono facilmente reperibili su qualsiasi dispositivo odierno.<br>
+						Un computer, un telefono, uno smart-fridge.
+					</p>
+					<p class="fragment fade-in" style="margin-top:15%;">Ma molto spesso questi non sono una buona soluzione.</p>
+				</section>
+				<section>
+					<p>Perché?</p>
+					<p class="fragment fade-in">
+						Un server deve di norma essere <span style="color:#20a4e2;">sempre connesso</span>, avere una <span style="color:#20a4e2;">stabile e capace connessione</span>, essere <span style="color:#20a4e2;">rapido</span> a rispondere.
+					</p>
+				</section>
+				<section>
+					<p style="font-size: 150%;">La soluzione?</p>
+					<p class="fragment fade-in" style="margin-top: 100px; font-size: 150%;">Il <span style="color:#20a4e2;">web hosting</span>.</p>
+					<p class="fragment fade-in" style="font-size: 60%;">.. ma si paga, sempre.</small>
+					<p class="fragment fade-in" style="font-size: 40%">.. o almeno, quasi sempre.</p>
+				</section>
+				<section>
+					<div style="background-color:#fff; border-radius: 10%;">
+						<div style="float:left; width: 300px; height: 300px;">
+							<img  src="resources/images/logo_altervista.png" />
+						</div>
+						<div style="float: left; width: 300px; height: 300px;">
+							<img  src="resources/images/logo_wpcom.png" />
+						</div>
+						<div style="float:left; width: 300px; height: 300px;">
+							<img  src="resources/images/logo_bluehost.png" />
+						</div>
+						<div style="float: left; width: 300px; height: 300px;">
+							<img  src="resources/images/logo_AWS.png"/>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section>
+				<section>
+					<p style="margin-bottom: -150px;">Internet è come gli orchi: vi sono i <span class="fragment highlight-blue">
+					layer</span>.</p>
+					<img style="width: 150%;" src="resources/images/layers.svg"/>
+				</section>
+				<section>
+					<p>
+						I <span style="color:#20a4e2">layer</span> sono processi
+						 attraverso i quali i dati passano in modo da poter arrivare
+						  al destinatario e poter essere compresi.
+					</p>
+				</section>
+				<section>
+					<div style="width: 100%;padding-top: 50px;">
+						<div style="width: 40%; float: left;">
+							<img src="resources/images/layer0.svg"/>
+						</div>
+						<div style="width: 40%; float: left; text-align: left; padding-left: 100px;">
+							<p class="fragment fade-out" data-fragment-index="0"; style="position: relative; top: -30px; left: 0px;">
+								Il primo layer è quello dell'applicazione (ad esempio, il browser) e lo si può considerare spezzato in due.
+							</p>
+							<div class="fragment fade-out" data-fragment-index="1">
+								<p class="fragment fade-in" data-fragment-index="0" style="position: relative; top: -385px; left: 0px;">
+									L'applicazione sceglie il formato in cui richiede i dati, 
+									e.g. l'<span style="color:#20a4e2">HTTP</span>.
+								</p>
+							</div>
+							<p class="fragment fade-in" data-fragment-index="1"; style="position: relative; top: -630px; left: 0px;">
+								SSL/TLS è invece un layer di sicurezza.<br><br><br> Consiste nel crittografare i dati ed è la differenza tra HTTP ed HTTPS.
+							</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div style="width: 100%; padding-top: 10%;">
+						<div style="width: 40%; float: left;">
+							<img src="resources/images/layer1.svg"/>
+						</div>
+						<div style="width: 40%; float: left; text-align: left; padding-left: 100px;">
+							<p>
+								Il livello del trasporto invece gestisce come i dati vengono spediti.<br>
+								I protocolli, e.g. TCP ed UDP, decidono il processo di scambio dati.<br>
+								Come la differenza fra l'invio di una cartolina e quello di una raccomandata.</p>
+						</div>						
+					</div>
+				</section>
+				<section>
+					<div style="width: 100%;">
+						<div style="width: 40%; float: left;">
+							<img src="resources/images/layer2.svg"/>
+						</div>
+						<div style="width: 40%; float: left; text-align: left; padding-left: 100px;">
+							<p>
+								Il livello di network si occupa di trovare la vera posizione dell'indirizzo scritto.<br><br>
+								Però deve prima trasformare il nome del sito nell'IP. Per fare ciò usa il <span style="color:#20a4e2">DNS</span>.
+							</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div style="width: 100%;">
+						<div style="width: 40%; float: left;">
+							<img src="resources/images/layer3.svg"/>
+						</div>
+						<div style="width: 40%; float: left; text-align: left; padding-left: 100px;">
+							<p>
+								L'ultimo strato è quello fisico.<br><br>
+								Qui il segnale viene convertito in luce o segnali elettrici per andare da macchina a macchina.
+							</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<p>Detto ciò, a noi interessano dal punto di vista pratico due cose:</p>
+					<ul>
+						<li>DNS</li>
+						<li>SSL/TLS</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Il <span style="color:#20a4e2">DNS</span></h1>
+					<p style="font-size: 80%;"><span style="color:#20a4e2">D</span>omain 
+						<span style="color:#20a4e2">N</span>ame
+						<span style="color:#20a4e2">S</span>ystem</p>
+				</section>
+				<section>
+					<p style="padding-top:20%">URL: <span style="font-style:italic;">http://<span style="color:#20a4e2;">bestmilano.it</span>/it/course</span></p>
+					<div>
+						<p class="fragment fade-out" style="margin-top:10%;" >Un URL è facile da ricordare, ma non ci dice nulla sulla macchina alla quale è associato.</p>
+						<p class="fragment fade-in-then-out" style="margin-top:10%; position: relative; top: -200px;">
+						È come avere il nome della persona che vogliamo chiamare, ma non il suo numero di telefono.</p>
+						<p class="fragment fade-in" style="margin-top:10%; position: relative; top: -400px;">
+						Abbiamo bisogno di un <span style="color:#20a4e2">registro telefonico</span>.</p>
+					</div>
+				</section>
+				<section>
+					<p>Il DNS è proprio questo.</p>
+					<p>È un sistema molto complesso, ma riducendolo ai minimi termini non è altro che un enorme elenco delle pagine bianche di dominio pubblico.</p>
+				</section>
+				<section>
+					<p>Questo elenco è distribuito su una rete di server appositi.</p>
+					<p>Non appena ricevono una richiesta, questi server trovano a quale IP corrisponde l'URL mostrato, e lo restituiscono alla macchina che può ora inviare il pacchetto.</p>
+				</section>
+				<section>
+					<p>Perché ci interessa tutto ciò?</p>
+					<p>A meno che non vogliamo che il nostro sito si chiami <span style="font-style: italic">192.168.30.45</span>, abbiamo bisogno di scegliere un nome del sito web appopriato e registrarlo su uno di questi server.</p>
+				</section>
+				<section>
+					<p>Alla domanda "<span style="color:#20a4e2">come</span> farlo" c'è la sempiterna risposta:</p>
+					<p class="fragment fade-in" style="margin-top: 8%; font-size: 400%; color:#20a4e2;">$$$</p>
+				</section>
+				<section>
+					<p>Per registrare e mantenere un dominio è necessario contattare un <span style="color:#20a4e2;">
+					domain registrar</span> (e.g. <span style="font-style: italic">GoDaddy Domains</span>) e pagare un costo annuo, intorno ai € 10-30.</p>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1 style="color:#20a4e2;">TLS</h1>
+					<p style="font-size: 80%;"><span style="color:#20a4e2">T</span>ransport
+						<span style="color:#20a4e2">L</span>ayer
+						<span style="color:#20a4e2">S</span>ecurity</p>
+				</section>
+				<section>
+					<p>Al giorno d'oggi la sicurezza sul web è importantissima per due motivi principali:
+					</p>
+					<ul>
+						<li>evitare grane legali;</li>
+						<li>avere la fiducia dell'utente.</li>
+					</ul>
+				</section>
+				<section>
+					<img src="resources/images/sitononsicuro.png"/>
+					<p>Questo non piace a nessuno.</p>
+				</section>
+				<section>
+					<img src="resources/images/sitosicuro.png"/>
+					<p>Questo piace di più.</p>
+				</section>
+				<section>
+					<p>Per passare da <span style="font-style: italic;">non sicuro</span> a <span style="font-style: italic;">sicuro</span>, serve implementare il TLS e disporre di un certificato.
+					implementare HTTPS ed avere un certificato validato.</p>
+				</section>
+				<section>
+					<p>Come si fa? Ovviamente...</p>
+					<p class="fragment fade-in">.. ah no? Stavolta niente soldi.</p>
+				</section>
+				<section>
+					<p>Fortunatamente esiste <span style="color:#20a4e2; font-style:italic;">Let's Encrypt</span> una non-profit <span style="color:#20a4e2;">CA</span>
+					(Certificate Authority) che permette di fare il tutto gratuitamente.</p>
+				</section>
+			</section>
 		</div>
 	</div>
 
